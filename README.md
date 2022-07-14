@@ -1,4 +1,4 @@
-# V(D)J T Cell and B Cell Analysis with cellranger vdj
+# V(D)J T Cell and B Cell Analysis with cellranger
 
 ### cellranger vdj pipeline
 The [cellranger vdj pipeline](https://support.10xgenomics.com/single-cell-vdj/software/pipelines/latest/using/vdj) can be used to analyze sequencing data produced from Chromium Single Cell 5′ V(D)J libraries. 
