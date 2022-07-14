@@ -1,0 +1,10 @@
+[gene-expression]
+reference,/reference-genomes/refdata-gex-mm10-2020-A
+
+[vdj]
+reference,/reference-genomes/refdata-cellranger-vdj-GRCm38-alts-ensembl-7.0.0
+
+[libraries]
+fastq_id,fastqs,feature_types,subsample_rate
+PREFIX1,/FASTQ_PATH,Gene Expression,
+PREFIX2,/FASTQ_PATH,VDJ-B,
