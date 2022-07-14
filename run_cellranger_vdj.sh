@@ -10,7 +10,7 @@ FASTQ_PATH=${FASTQPATH:-'./'}
 LOCAL_CORES=${LOCALCORES:-8}
 LOCAL_MEM=${LOCALMEM:-64}
 
-cellranger vdj --id=$RUNID \
+cellranger vdj --id=$ID \
                  --reference=$VDJ_REF \
                  --fastqs=$FASTQ_PATH \
                  --sample=$PREFIX \
