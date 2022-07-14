@@ -1,7 +1,13 @@
+#!/bin/bash
 
+export PATH=/opt/cellranger-7.0.0:$PATH
 
+ID=RUNID
+CONFIG_CSV=config.csv
+LOCAL_CORES=${LOCALCORES:-8}
+LOCAL_MEM=${LOCALMEM:-64}
 
-cellranger multi --id=sampleMulti \
-                 --csv=config.csv \
-                 --localcores=8 \
-                 --localmem=64
+cellranger multi --id=$ID \
+                 --csv=$CONFIG_CSV \
+                 --localcores=$LOCAL_CORES \
+                 --localmem=$LOCAL_MEM
