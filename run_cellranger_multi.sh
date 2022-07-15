@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sourrce cellranger_version.sh
+source cellranger_version.sh
 
 ID=RUNID
 CONFIG_CSV=config.csv
