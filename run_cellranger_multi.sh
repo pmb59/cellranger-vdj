@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=/opt/cellranger-7.0.0:$PATH
+sourrce cellranger_version.sh
 
 ID=RUNID
 CONFIG_CSV=config.csv
