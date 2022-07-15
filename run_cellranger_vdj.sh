@@ -11,10 +11,10 @@ LOCAL_CORES=${LOCALCORES:-8}
 LOCAL_MEM=${LOCALMEM:-64}
 
 cellranger vdj --id=$ID \
-                 --reference=$VDJ_REF \
-                 --fastqs=$FASTQ_PATH \
-                 --sample=$PREFIX \
-                 --localcores=$LOCAL_CORES \
-                 --localmem=$LOCAL_MEM
-                 
- 
+    --reference=$VDJ_REF \
+    --fastqs=$FASTQ_PATH \
+    --sample=$PREFIX \
+    --localcores=$LOCAL_CORES \
+    --localmem=$LOCAL_MEM
+
+

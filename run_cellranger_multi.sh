@@ -10,7 +10,7 @@ LOCAL_CORES=${LOCALCORES:-8}
 LOCAL_MEM=${LOCALMEM:-64}
 
 cellranger multi --id=$ID \
-                 --csv=$CONFIG_CSV \
-                 --jobmode=$JOBMODE \
-                 --localcores=$LOCAL_CORES \
-                 --localmem=$LOCAL_MEM
+    --csv=$CONFIG_CSV \
+    --jobmode=$JOBMODE \
+    --localcores=$LOCAL_CORES \
+    --localmem=$LOCAL_MEM
